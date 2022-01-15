@@ -25,9 +25,9 @@ load_dotenv()
 
 class Config:
     def __init__(self) -> None:
-        self.API_ID: str = os.environ.get("API_ID", None) or "7055975"
-        self.API_HASH: str = os.environ.get("API_HASH", None) or "b5a46009c73889abf90fdcff928e4532"
-        self.SESSION: str = os.environ.get("PYROGRAM_SESSION", None) or "BQB2Imr63SjPpo4o1B1DravxYUQk6bnLhu0aCfUmUwKfd-A5AfCZ4lBXcfPfo5PltmKp9JyiKjuhwhuuEKqdIcGGxtCcdk6wRChAD1PeSaCS8I6PPrFoZRmSqLS2sL6L_Lm6EXbyNLGdXbAYNiyUTPYijtLY6JsGFEXCgPLG4PbVI87whqg1W8KLHwvDl45W5qtBosfAzR4T5TKjUStFTUppL4Tg58L6j1G5bnmfxDSrwLdZXTxVWksZJySGSfubW0bo3eHzGMEMhRHlR4x5gIuurLzyZVxVx2fAIRmFI-Wc9qxZtQ_kFEFRbLUrzOHtLem4zCVSoBe4KfdPT0UtiM2jfCT8RgA"
+        self.API_ID: str = os.environ.get("API_ID", None) or "4324828"
+        self.API_HASH: str = os.environ.get("API_HASH", None) or "ff4db0d67b7788634bde213e3ce96e72"
+        self.SESSION: str = os.environ.get("PYROGRAM_SESSION", None) or "BQBQ4wEq3naWuiRQU41HMbam47RMTr078H636csUUf8DaFTNBAat_WpxkIC10J2QTSkkmjvJLUGEnybmg-g3y62-2YKB7PutbvGinT6eJ4QQcUyoQbO2udsakafa6bu8c5mZ4Be53G1oyDZpiYIT5wxuBW4-ESyr9mBwAV-PhHuW5GSacUiu6p9emfo71EvFTkDxCTfSDXxLc0D6NLkKE7GrXmCO048nd0R97oeXYXwa9qqktNFlg0ZRoTVvB8uoTwCNlGpA_CWxqmOPTj402pS0k6PJvTrk0TCd2-0I0XwcTT6qvj2wF1W57VXctU980tcRAZsK5J2n9LYe1SlLR9qTfOktWAA"
         self.SUDOERS: list = [
             int(id) for id in os.environ.get("SUDOERS", "2082798662").split() if id.isnumeric()
         ]
